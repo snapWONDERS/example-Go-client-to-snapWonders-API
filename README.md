@@ -23,7 +23,8 @@ Through the example source, you will be able to:
 For the development environment you will need:
 * Install Visual Studio Code. You can download and install from [visual code studio](https://code.visualstudio.com/download)
 * Install the Go programming language if you have not done so. Simply follow the instructions from [go programming language](https://go.dev/doc/install)
-* Install the plugin into Visual Studio Code called "Go". See image below for details: 
+* Install the plugin into Visual Studio Code called "Go". See image below for details:
+<img src="https://storage.snapwonders.com/cache/1/rOPuKm-R7IDpm8rNlb73huuqCvMZW7OE.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=739e747e27cc388873bac4c801603108" alt="Go plugin" />
 
 ## snapWONDERS API Key
 You will need the snapWONDERS API Key before you can get started:
@@ -38,9 +39,10 @@ Once everything above is setup you should be able to simply open the workspace f
 If you wish, you can change and provide your own digital media to upload (images and/or videos) and change the `MEDIA_PATH_FILENAME` constant contained in the `main.go` file. Otherwise the sample image provided is just a photo of me that I use on my social media accounts.
 
 If all is well, then you should see the standard output to be something like below:
+<img src="https://storage.snapwonders.com/cache/1/88POwr1GGHUVHLbJiAEptWKrwguDjZxa.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=468d104174de055126453e8c370d4266" alt="Example for standard output display for Go client to snapWONDERS API" />
 
 Which provides similar information as per the analyse results via the snapWONDERS website:
-
+<img src="https://storage.snapwonders.com/cache/1/wEqYS8DopFx1zqoFfAaAa12-58Eh6OCj.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=9599795d1494b2bac7e4a2dc09a47967" alt="Results sample as showing on the snapWONDERS website" />
 
 # Documentation 
 Useful documentation can be found at:
