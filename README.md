@@ -8,13 +8,13 @@ snapWonders — Deep digital media analysis, format conversions, steganography, 
 
 
 # Example Go client to snapWonders API
-The objective of this repository is to provide a Go Client client example to snapWONDERS API. This includes a setup-by-step
+The objective of this repository is to provide a Go client example to snapWONDERS API. This includes a step-by-step
 guide how to set up your development environment, the example source code and instructions on how to test and run.
 
 Through the example source, you will be able to:
-* Upload digital media
+* Upload digital media (using resumable uploading following the Tus.io protocol)
 * Perform deep digital media analysis, reveal hidden metadata, hidden metadata, copyrights, steganography and private information leakage
-* Display the results from the analysis
+* Display the results from the analysis (in which you can extract and make use as needed)
 
 
 # Installation and setup
@@ -35,11 +35,11 @@ You will need the snapWONDERS API Key before you can get started:
 # Running the Go example
 Once everything above is setup you should be able to simply open the workspace folder with Visual Studio Code and run or debug it. Simply hit the default hot keys `F5` to start debugging or to run directly use `Ctrl+F5`.
 
-If you wish you can change and provide your own digital media to upload (images and/or videos) and change the `MEDIA_PATH_FILENAME` constant contained in the `main.go` file.
+If you wish, you can change and provide your own digital media to upload (images and/or videos) and change the `MEDIA_PATH_FILENAME` constant contained in the `main.go` file. Otherwise the sample image provided is just a photo of me that I use on my social media accounts.
 
-You should see the standard output like something like below:
+If all is well, then you should see the standard output to be something like below:
 
-Which provides similar information as per the snapWONDERS website:
+Which provides similar information as per the analyse results via the snapWONDERS website:
 
 
 # Documentation 
@@ -53,10 +53,10 @@ Useful documentation can be found at:
 # Contact
 
 ## For security concerns
-If you have spotted any security concerns then please reach out via [contacting snapWONDERS](https://snapwonders.com/contact) and set the subject to "SECURITY CONCERNS" and provide your concerns. If you wish to contact via Tor or I2P then you can do so by accessing snapWONDERS via the Tor or I2P portals. For the dark web links visit [browsing safely](https://snapwonders.com/browsing-safely)
+If you have spotted any security concerns then please reach out via [contacting snapWONDERS](https://snapwonders.com/contact) and set the subject to **"SECURITY CONCERNS"** and provide the information about your concerns. If you wish to contact via Tor or I2P then you can do so by accessing snapWONDERS via the Tor or I2P portals. For the dark web links visit [browsing safely](https://snapwonders.com/browsing-safely)
 
 ## For FAQ and questions
-It may be possible that your questions are already answered in the [FQA](https://snapwonders.com/faq). Be sure to check out the FAQ details. Otherwise you may reach out via [contacting snapWONDERS](https://snapwonders.com/contact). If you wish to contact via Tor or I2P then you can do so by accessing snapWONDERS via the Tor or I2P portals. For the dark web links visit [browsing safely](https://snapwonders.com/browsing-safely)
+It may be possible that your questions are already answered in the [FAQ](https://snapwonders.com/faq). Be sure to check out the FAQ content first. Otherwise you may reach out via [contacting snapWONDERS](https://snapwonders.com/contact). If you wish to contact via Tor or I2P then you can do so by accessing snapWONDERS via the Tor or I2P portals. For the dark web links visit [browsing safely](https://snapwonders.com/browsing-safely)
 
 # For contacting the author
-Use this linke to contact the author [Kenneth Springer](https://kennethbspringer.au/)
+Use this link to contact the author [Kenneth Springer](https://kennethbspringer.au/)
