@@ -40,8 +40,8 @@ func analyseJob(pathFileName string) {
 
 		//  Wait for the job to be completed
 		if (jsonJobStatus.Status == JOB_STATUS_WAITING) || (jsonJobStatus.Status == JOB_STATUS_PROCESSING) {
-			time.Sleep(5 * time.Second)
 			fmt.Println("INFO: Sleeping for a few seconds...")
+			time.Sleep(5 * time.Second)
 
 			//  If completed we break out
 		} else if jsonJobStatus.Status == JOB_STATUS_COMPLETED {
@@ -66,7 +66,7 @@ func analyseJob(pathFileName string) {
 func createAnalyseJob(urlUploadMedia string) string {
 	fmt.Println("CALL: createAnalyseJob()")
 
-	//  Build up Json Analyser Job
+	//  Build up Json Analyse Job
 	jobAnalyse := &JobAnalyse{
 		Key:                 filepath.Base(urlUploadMedia),
 		EnableTips:          true,
