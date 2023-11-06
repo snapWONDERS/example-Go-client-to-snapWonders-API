@@ -25,7 +25,7 @@ const (
 	MEDIA_PATH_FILENAME = "./Data/Images/me-mountain.jpg"
 
 	//  Uploads are done via resumable uploading in chunks (this must be less than 5MB)
-	DATA_CHUNK_SIZE = 500000
+	DATA_CHUNK_SIZE = 400000
 )
 
 func main() {
