@@ -35,6 +35,7 @@ You will need the snapWONDERS API Key before you can get started:
 
 # Running the Go example
 Once everything above is setup you should be able to simply open the workspace folder with Visual Studio Code and run or debug it. Simply hit the default hot keys `F5` to start debugging or to run directly use `Ctrl+F5`.
+<img src="https://storage.snapwonders.com/cache/1/mhVnv6PkU7zYJDVyxyWwtVsiSTt0MhCG.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=8c732fa0bdce5b38c6945b31c9e885f4" alt="Visual Code IDE" />
 
 If you wish, you can change and provide your own digital media to upload (images and/or videos) and change the `MEDIA_PATH_FILENAME` constant contained in the `main.go` file. Otherwise the sample image provided is just a photo of me that I use on my social media accounts.
 
@@ -44,7 +45,7 @@ If all is well, then you should see the standard output to be something like bel
 Which provides similar information as per the analyse results via the snapWONDERS website:
 <img src="https://storage.snapwonders.com/cache/1/wEqYS8DopFx1zqoFfAaAa12-58Eh6OCj.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=9599795d1494b2bac7e4a2dc09a47967" alt="Results sample as showing on the snapWONDERS website" />
 
-# Documentation 
+# Documentation
 Useful documentation can be found at:
 * For endpoint, swagger UI and other source code examples can be found at [snapWONDERS developers documentation](https://snapwonders.com/snapwonders-openapi-specification)
 * The actual snapWONDERS OpenAPI Specification can be found at [snapWONDERS OpenAPI Specification](https://api.snapwonders.com/site/docs)
