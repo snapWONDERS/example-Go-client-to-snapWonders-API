@@ -4,7 +4,7 @@
     </a>
 </p>
 
-snapWonders — Deep digital media analysis, format conversions, steganography, scrubbing and regeneration. Providing digital media solutions
+snapWONDERS — Deep digital media analysis, format conversions, steganography, scrubbing and regeneration. Providing digital media solutions
 
 
 # Example Go client to snapWonders API
