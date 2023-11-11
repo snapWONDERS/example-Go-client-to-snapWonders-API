@@ -58,7 +58,7 @@ func analyseJob(pathFileName string) {
 	var mapJsonResults map[string]interface{}
 	json.Unmarshal(dataResults, &mapJsonResults)
 
-	//  NOTE: You can call getJobResults() for image url resouces contained within the JSON result
+	//  NOTE: You can call getJobResults() for image url resources contained within the JSON result
 	printPretty(mapJsonResults)
 }
 
