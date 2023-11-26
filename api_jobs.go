@@ -139,7 +139,7 @@ func getJobStatus(urlJobStatus string) *JobStatus {
 
 // Gets the job results (this can be a JSON or image content)
 func getJobResults(urlJobResults string) []byte {
-	fmt.Println("CALL: getJobStatus()")
+	fmt.Println("CALL: getJobResults()")
 
 	//  Call API to get job status
 	req, err := http.NewRequest(
@@ -158,7 +158,7 @@ func getJobResults(urlJobResults string) []byte {
 
 	//  Check GET status for errors
 	if res.StatusCode != http.StatusOK {
-		dumpApiError("Get job status failed", res)
+		dumpApiError("Get job results failed", res)
 	}
 
 	//  Success - Extract the job results
