@@ -141,7 +141,7 @@ func getJobStatus(urlJobStatus string) *JobStatus {
 func getJobResults(urlJobResults string) []byte {
 	fmt.Println("CALL: getJobResults()")
 
-	//  Call API to get job status
+	//  Call API to get job results
 	req, err := http.NewRequest(
 		http.MethodGet,
 		urlJobResults,
