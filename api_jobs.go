@@ -95,7 +95,7 @@ func createAnalyseJob(urlUploadMedia string) string {
 		dumpApiError("Create analyse job failed", res)
 	}
 
-	//  Success - Extract the media url
+	//  Success - Extract the job url
 	urlJobAnalyse := res.Header.Get("Location")
 	fmt.Printf("SUCCESS: Created analyse job located at url:[%s]\n", urlJobAnalyse)
 	return urlJobAnalyse
